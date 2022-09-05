@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cm_connect"
+        android:icon="@drawable/ic_bt_connect"
+        android:orderInCategory="100"
+        android:title="Connect"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/cm_list"
+        android:icon="@drawable/ic_bt_list"
+        android:orderInCategory="200"
+        android:title="Bt List"
+        app:showAsAction="ifRoom"
+        />
+</menu>
